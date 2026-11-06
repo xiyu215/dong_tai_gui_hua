@@ -12,7 +12,7 @@ while True:
     V['L2']=t
 
     cnt+=1
-    if delta<0.00000000000000000000000000000001:
+    if delta<0.000000001:
         print(V)
         print(cnt)
         break
