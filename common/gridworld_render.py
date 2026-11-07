@@ -92,7 +92,6 @@ class Renderer:
 
         ys, xs = self.ys, self.xs
         ax = self.ax
-
         action_space = [0, 1, 2, 3]
 
         qmax, qmin = max(q.values()), min(q.values())
